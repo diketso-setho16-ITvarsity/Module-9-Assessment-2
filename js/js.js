@@ -1,14 +1,14 @@
 var timer = setInterval(displayWorldTime, 1000)
 
 var cities = [
-    {name: "Istanbul", utcOffset: 3, flag: "Turkey.png"},
-    {name: "New York City", utcOffset: -5, flag: "United-States-of-America.png"},
+    {name: "South Africa", utcOffset: 2, flag: "South-Africa.png"},
+    {name: "South Korea", utcOffset: 9, flag: "Korea-South.png"},
     {name: "Tokyo", utcOffset: 9, flag: "Japan.png"},
     {name: "Moscow", utcOffset: 3, flag: "Russia.png"},
     {name: "Rio De Janeiro", utcOffset: -3, flag: "Brazil.png"},
-    {name: "Sydney", utcOffset: 11, flag: "Australia.png"},
+    {name: "Nepal", utcOffset: 11, flag: "Australia.png"},
     {name: "Vancouver", utcOffset: -8, flag: "Canada.png"},
-    {name: "Beijing", utcOffset: 8, flag: "China.png"}
+    {name: "Qatar", utcOffset: 3, flag: "Qatar.png"}
 ];
 
 cities.sort(compare);
